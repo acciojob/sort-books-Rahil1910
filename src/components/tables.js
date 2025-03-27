@@ -50,10 +50,7 @@ const Tables = () => {
       <table style={{ border: "1px solid white", width: "100%", marginTop: "20px", textAlign: "left" }}>
         <thead>
           <tr>
-            <th style={{ border: "1px solid white" }}>Title</th>
-            <th style={{ border: "1px solid white" }}>Author</th>
-            <th style={{ border: "1px solid white" }}>Publisher</th>
-            <th style={{ border: "1px solid white" }}>ISBN</th>
+            <th colSpan="3" style={{ border: "1px solid white" }}>Books List</th>
           </tr>
         </thead>
         <tbody>
